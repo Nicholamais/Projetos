@@ -95,7 +95,7 @@ nome.configure(font="-family {Euphorigenic} -size 27 -weight bold -slant italic"
 d = ['_ '] * len(''.join(palavra))
 e = d
 j = 0
-tentativas = 15
+tentativas = 2*len(palavra)
 
 
 resposta = Label(janela, text='dica: '+a)
